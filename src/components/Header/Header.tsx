@@ -37,7 +37,7 @@ export default function Header() {
           <p>Sobre mim</p>
         </div>
         <div className="flex gap-2">
-          <button className="rounded-lg bg-yellowgreen p-1 px-2 font-semibold hover:bg-yellowgreendark shadow-sm">
+          <button className="rounded-lg bg-yellowgreen py-2 px-3 font-semibold text-sm hover:bg-yellowgreendark shadow-sm">
             Fale comigo aqui!
           </button>
         </div>

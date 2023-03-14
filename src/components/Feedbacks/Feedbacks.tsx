@@ -30,7 +30,7 @@ export default function Feedbacks() {
         >
           {feedbacks &&
             feedbacks.map((depo) => (
-              <SwiperSlide key={depo.id} className="flex items-center py-2">
+              <SwiperSlide key={depo.id} className="flex items-center pb-10">
                 <figure className="flex flex-col justify-center h-80 gap-3 bg-gray-100 rounded-xl p-8 mx-12 shadow-md md:w-fit">
                   <img
                     className="h-24 w-24 rounded-full mx-auto cover"
