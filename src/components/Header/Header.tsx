@@ -5,7 +5,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return (
     <div className="bg-gray-100">
-      <div className="w-full flex items-center h-16 justify-around max-w-7xl m-auto">
+      <div className="w-11/12 flex items-center px-5 h-16 justify-between max-w-7xl m-auto">
         <div
           className={`${
             open ? "bg-gray-200 h-max " : "h-0 opacity-0"

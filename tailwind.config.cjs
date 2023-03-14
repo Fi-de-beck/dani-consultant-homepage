@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'image': '950px'
+      },
       keyframes: {
         openclose: {
           '0%': { top: '0rem', width: '0' },
@@ -31,20 +34,16 @@ module.exports = {
       colors:{
         'yellowgreen': '#cef972',
         'yellowgreendark': '#bbe366',
+        'magenta': '#E8485F',
         'footer': '#101727',
       },
       fontFamily: {
         'main': ['Inter', 'sans-serif']
       },
-      colors:{
-        'yellowgreen': '#cef972',
-        'yellowgreendark': '#bbe366',
-        'magenta': '#E8485F',
-        'footer': '#101727',
+      backgroundImage: {
+        'daniHero': "url('./src/assets/dani-hero.png')",
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/line-clamp')
-  ],
+  plugins: [],
 }
