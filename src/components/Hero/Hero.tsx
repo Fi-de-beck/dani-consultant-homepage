@@ -2,7 +2,7 @@ import { GiPublicSpeaker, GiBeachBag, GiBedLamp } from "react-icons/gi";
 import dani from "../../assets/dani2.png";
 function Hero() {
   return (
-    <div className="image:bg-gray-100 py-10">
+    <div className="image:bg-gray-100 image:py-10">
       <div className="max-w-7xl image:w-11/12 justify-between px-5 m-auto flex relative bg-daniHero bg-cover bg-no-repeat bg-blend-screen bg-gray-800 bg-top image:bg-gray-100 image:bg-none">
         <div className="image:m-0 w-11/12 image:w-1/2 z-10 relative flex flex-col gap-3 py-10 m-auto">
           <div className="h-6 w-6 hidden image:block absolute top-2 -left-2 rounded-full bg-yellowgreen" />
