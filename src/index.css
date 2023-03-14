@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    h2 {
+        color: rgb(147, 51, 234);
+        font-size: 22px;
+        font-weight: 700;
+        padding: 20px 0;
+    }
+    h3 {
+        color: rgb(75, 85, 99);
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
