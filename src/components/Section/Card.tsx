@@ -105,7 +105,7 @@ function Card() {
               {item?.content}
               </p>
               </blockquote>
-              <button className="w-32 h-10 m-auto bg-purple-600 text-white rounded-xl">Saiba mais</button>
+              <button className="w-24 h-10 md:mt-3 mt-1 text-sm m-auto bg-purple-600 hover:bg-purple-500 text-white rounded-xl">Saiba mais</button>
               </div>
             <img src={item?.image} alt="img" className="w-full h-full md:rounded-xl relative -z-20" />
             </div>
