@@ -43,7 +43,7 @@ function Hero() {
               Creative Thinking
             </span>
           </div>
-          <div className="h-8 w-8 hidden image:block absolute -bottom-6 left-56 rounded-full bg-yellowgreen/70" />
+          <div className="h-8 w-8 hidden image:block absolute -bottom-6 left-56 rounded-full bg-yellowgreen" />
         </div>
         <div className="image:block hidden">
           <div className="h-5 w-5 absolute top-2 rounded-full right-10 bg-yellowgreen" />
