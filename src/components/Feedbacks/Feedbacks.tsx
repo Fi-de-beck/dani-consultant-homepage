@@ -5,7 +5,7 @@ import feedbacks from './feedbacksData';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import { Navigation } from 'swiper';
+import { Navigation } from 'swiper/modules';
 
 export default function Feedbacks() {
 	return (

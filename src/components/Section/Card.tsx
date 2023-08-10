@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 // import required modules
-import { Navigation, Pagination, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 function Card() {
 	const size = useWindowSize();
 	const srcAssets = 'src/assets/images-carroussel';
