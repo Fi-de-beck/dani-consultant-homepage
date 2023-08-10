@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import useWindowSize from '../../custom hooks/useWindowSize';
@@ -13,7 +13,6 @@ import 'swiper/css/autoplay';
 import { Navigation, Pagination, Autoplay } from 'swiper';
 function Card() {
 	const size = useWindowSize();
-	const randomKey = Math.random();
 	const srcAssets = 'src/assets/images-carroussel';
 	const imgArray = [
 		{
